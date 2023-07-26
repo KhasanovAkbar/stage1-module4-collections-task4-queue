@@ -6,8 +6,8 @@ import java.util.Queue;
 
 public class ArrayDequeCreator extends PriorityQueue<String> {
     public ArrayDeque<Integer> createArrayDeque(Queue<Integer> firstQueue, Queue<Integer> secondQueue) {
-
-        return null;
+        ArrayDeque<Integer> result = new ArrayDeque<>();
+        return result;
     }
 }
 
